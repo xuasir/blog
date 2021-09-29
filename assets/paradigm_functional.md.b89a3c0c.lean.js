@@ -1,1 +1,0 @@
-import{_ as n,c as s,o as a,d as p}from"./app.9629f6ad.js";const t='{"title":"初探函数式编程","description":"","frontmatter":{},"headers":[{"level":3,"title":"初探函数式编程","slug":"初探函数式编程"}],"relativePath":"paradigm/functional.md","lastUpdated":1632886673269}',o={},e=[p('',74)];var c=n(o,[["render",function(n,p,t,o,c,u){return a(),s("div",null,e)}]]);export{t as __pageData,c as default};
