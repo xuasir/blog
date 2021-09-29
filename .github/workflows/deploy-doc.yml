@@ -40,8 +40,8 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
         with:
-          source-repo: 'git@github.com:xus-code/vue-reuse.git'
-          destination-repo: 'git@gitee.com:a-sir/vue-reuse.git'
+          source-repo: 'git@github.com:xus-code/blog.git'
+          destination-repo: 'git@gitee.com:a-sir/blog.git'
   reload-pages:
     needs: sync
     runs-on: ubuntu-latest
@@ -51,5 +51,5 @@ jobs:
         with:
           gitee-username: a-sir
           gitee-password: ${{ secrets.GITEE_PASSWORD }}
-          gitee-repo: a-sir/vue-reuse
+          gitee-repo: a-sir/blog
           branch: gh-pages
