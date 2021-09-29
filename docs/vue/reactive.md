@@ -1,4 +1,4 @@
-### Vue2.x--Reactive
+### Vue2响应式
 
 * **什么是响应式？**
 
@@ -94,7 +94,7 @@
 
 现在我们已经劫持到了数据的变更和获取了，剩下的问题就是找到视图依赖的数据，然后进行收集；这个过程比较繁琐，让我们先来看看VUE是如何做的：
 
-![reactive](/blog/reactive.png)
+![reactive](/reactive.png)
 
 因为重点在响应式，我们可以将watcher和virtual Dom的概念弱化，暂且理解这里的watcher就是对应一个组件持有一个的渲染观察者，他掌管着组件渲染的调度权，这里的组件渲染可以理解成调用组件的render函数（在vue的mount阶段，vue是只认识render函数的，无论在.vue的单文件中书写template还是其他书写模板的方式最终都会通过vue-loader或者vue的编译器版本编译成render函数)生成virtual dom。  
 

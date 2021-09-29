@@ -2,17 +2,15 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "blog",
-  "main": "index.js",
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {
-    "vuepress": "^1.4.1"
+  "devDependencies": {
+    "vitepress": "^0.19.2"
   },
-  "devDependencies": {},
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs"
   },
   "keywords": [
     "blog",
@@ -21,5 +19,5 @@
     "JavaScript"
   ],
   "author": "xuguo",
-  "license": "ISC"
+  "license": "MIT"
 }
